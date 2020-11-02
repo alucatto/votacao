@@ -4,7 +4,7 @@ Software para leitura, decodificação e contagem do votos de uma botoeira com t
 
 Este programa contém:
 
-1) Leitura das entradas codificadas:
+## 1) Leitura das entradas codificadas:
 ----------------------------------------------
 Para diminuir a quantidade de entradas utilizadas, foi implementada uma codificação
 para detectar o botão acionado:
@@ -22,12 +22,12 @@ D1 D0 Informação/Botão
 1  1  Saúde
 
 
-Objetivo: Ler essas entradas codificadas
+*Objetivo*: Ler essas entradas codificadas
 
-2) Decodificação das entradas usadas pelas botoeiras:
+## 2) Decodificação das entradas usadas pelas botoeiras:
 -------------------------------------------------------------------
 
-Objetivo: Decodificar as entradas D0 e D1 e captar a informação de qual botão foi acionado.
+*Objetivo*: Decodificar as entradas D0 e D1 e captar a informação de qual botão foi acionado.
 
 Tabela:
 
@@ -42,5 +42,5 @@ D1 D0 Informação/Botão
 1  1  Saúde
 
 
-3) Contabilizar os votos por X tempo e apresentar resultados
+### 3) Contabilizar os votos por X tempo e apresentar resultados
 ------------------------------------------------------------------
